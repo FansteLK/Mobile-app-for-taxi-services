@@ -1,0 +1,35 @@
+/* 1 */
+{
+    "_id" : ObjectId("629b68f4dfbb905d8bb1163a"),
+    "email" : "fanste@gmail.com",
+    "password" : "$2a$10$f8Yyn1gYFN1B.P6axzfXkuhNASah7uJ8nrdxhI/KWN8ytcVeuxMj.",
+    "type" : "driver",
+    "number" : "652132111",
+    "availability" : "unavailable",
+    "regular" : true,
+    "licence_plate" : "BG-1020-TX",
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("62c416c0b5b5a095a054e3b5"),
+    "email" : "fanstee@gmail.com",
+    "password" : "$2a$10$f8Yyn1gYFN1B.P6axzfXkuhNASah7uJ8nrdxhI/KWN8ytcVeuxMj.",
+    "type" : "user",
+    "number" : "652132111",
+    "availability" : null,
+    "regular" : true
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("63052825c91cd8e1ae6d2b02"),
+    "email" : "stefanpajovic1999@gmail.com",
+    "password" : "$2a$10$uhnJI3MvS1KFBblO3FD/6ODC0NN3OebaAd/DLNtXoeOI6WvmKVbj.",
+    "type" : "user",
+    "number" : "648227084",
+    "availability" : null,
+    "regular" : true,
+    "__v" : 0
+}

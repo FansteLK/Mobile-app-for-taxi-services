@@ -1,0 +1,20 @@
+/* 1 */
+{
+    "_id" : ObjectId("62b876f50d011448631f1c11"),
+    "name" : "request_waiting_duration",
+    "value" : "30"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("62b8b4400d011448631fb154"),
+    "name" : "max_distance",
+    "value" : 20
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("62b95cad0d011448631ff2cc"),
+    "name" : "location_refresh_time",
+    "value" : "5"
+}

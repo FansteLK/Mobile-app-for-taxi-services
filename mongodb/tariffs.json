@@ -1,0 +1,54 @@
+/* 1 */
+{
+    "_id" : ObjectId("6298bbbbdbb5565a1b9a35d8"),
+    "name" : "tariff1",
+    "starting_price" : 220,
+    "price_per_km" : 80,
+    "night" : false,
+    "weekend" : false,
+    "holiday" : false
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6298bbbbdbb5565a1b9a35db"),
+    "name" : "tariff2",
+    "starting_price" : 220,
+    "price_per_km" : 100,
+    "night" : true,
+    "weekend" : false,
+    "holiday" : false
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6298bbbbdbb5565a1b9a35de"),
+    "name" : "tariff3",
+    "starting_price" : 220,
+    "price_per_km" : 120,
+    "night" : false,
+    "weekend" : true,
+    "holiday" : false
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6298bbbbdbb5565a1b9a35e1"),
+    "name" : "tariff4",
+    "starting_price" : 220,
+    "price_per_km" : 140,
+    "night" : false,
+    "weekend" : false,
+    "holiday" : true
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("62b8add80d011448631f9a0c"),
+    "name" : "tarrif5",
+    "starting_price" : "220",
+    "price_per_km" : "140",
+    "night" : true,
+    "weekend" : true,
+    "holiday" : false
+}
