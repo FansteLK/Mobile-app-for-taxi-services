@@ -1,18 +1,10 @@
 import * as functions from "firebase-functions";
-import * as admin from 'firebase-admin'
+import * as admin from "firebase-admin";
 
+// Uses Application Default Credentials: automatic when deployed to Firebase;
+// locally, point GOOGLE_APPLICATION_CREDENTIALS at a service-account key (never commit it).
+admin.initializeApp();
 
-
-
-var firebaseAccountCredentials = require("../taxiapp-54da0-firebase-adminsdk-5jkm0-015aad8b42.json");
-const serviceAccount = firebaseAccountCredentials as admin.ServiceAccount
-admin.initializeApp({
-  credential :admin.credential.cert(serviceAccount)
-}
-)
-
-
-        
 exports.sendDriverDistanceRequest = functions.https.onRequest(async(req,res)=>
 {
    const address = req.query.address as string
